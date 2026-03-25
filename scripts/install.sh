@@ -3,7 +3,7 @@ set -e
 
 export DEBIAN_FRONTEND=noninteractive
 export TERM=xterm-256color
-export INSTALL_DIR=/opt/quartus13
+export INSTALL_DIR=/opt/quartus11
 
 # Install all the necessary dependencies
 dpkg --add-architecture i386
@@ -27,7 +27,7 @@ rm *deb
 
 apt-mark hold libfreetype6 libfreetype6:i386
 
-# Quartus 13.1 setup.sh has a hardcoded path to /bin/env
+# Quartus 11.1 setup.sh has a hardcoded path to /bin/env
 ln -s /usr/bin/env /bin/env
 
 # Perform non-interactive Quartus installation
