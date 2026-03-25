@@ -1,7 +1,6 @@
-# Altera Quartus 13 dockerized 
+# Altera Quartus 11 dockerized 
 
-Files in this repository allow for running Quartus 13.0 Service Pack 1 in a Docker container. Why would anyone want to run such an old release? It was the last version to support **Cyclone** FPGAs,  as well as **MAX7000** families and compatible **ATF150x** CPLDs from Atmel/Microchip (which is exactly my use case, it's probably the last 5V CPLD family still manufactured).
-
+Files in this repository allow for running Quartus 11.0 Service Pack 1 in a Docker container. Why would anyone want to run such an old release? It was the last version to support original EP1 **Cyclone** family FPGAs.
 If you encounter any further issues or have any improvement ideas, submit an issue or pull request.
 
 ## Important notes
