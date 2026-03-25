@@ -5,7 +5,7 @@ set -e
 TARBALL=Quartus-web-13.0.1.232-linux.tar
 #TARBALL=Quartus-web-13.1.0.162-linux.tar
 
-QUARTUS_IMAGE=${QUARTUS_IMAGE:-"quartus:13"}
+QUARTUS_IMAGE=${QUARTUS_IMAGE:-"quartus:11"}
 
 echo "Checking SHA1 of ${TARBALL}..."
 sha1sum -c ${TARBALL}.sha1
